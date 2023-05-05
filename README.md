@@ -6,7 +6,7 @@ A data acquisition system (DAQ for short) created for Team Defianz Racing wherei
 - [Hardware and Modules](#hardware)
 - [Data Extracted](#data)
 - [Connections](#connections)
-- [My role](#role)
+- [My Role](#role)
 - [Credits](#credits)
 
 
@@ -48,8 +48,10 @@ From MFR: Speed of the fluid in the cooling system tubes (unit: L/minute)
 <img src="./Images/megatomcp.jpg" alt="megatomcp" width="350"/>
 4. Also connect the MFR sensor to the arduino. The 'data' wire should go in pin 4 of arduino. And the V+ve and V-ve wires should go in 5V and GND pins respectively.
 5. Connect the HC12 module such that it's RX and TX pins are connected to pin 10 and pin 11 of the arduino respectively. Also it's Vcc and GND pins should be connected to the 5V and GND pins of arduino.
+
 6. Power the arduino using Type A to Type B connector from the raspberry pi.
 7. Raspberry pi should get it's power from the general GPIO pins which are connected to the LV battery via a buck converter. The buck converter's potentiometer should be adjusted such that it converts the 12V input into 5V output.
+
 8. Raspberry pi should further be connected to the monitor present in the dashboard.
 
 
