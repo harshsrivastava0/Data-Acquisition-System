@@ -24,7 +24,7 @@ We use the following sensors from which the data needs to be extracted:
 <img src="./Images/mfr.jpg" alt="mfr" width="300"/>
 
 
-##Hardware and Modules
+## Hardware and Modules
 1. CANBUS wiring(twisted) with two 120 ohm resistors at both ends: to communicate with Motor Controller and BMS
 2. MCP2515 module: to communicate between CANBUS and Arduino
 3. Arduino Mega 2560: to process the data received by all the sensors and convert it into useable form
@@ -40,7 +40,7 @@ From BMS: Accumulator current, Accumulator Voltage, State of charge, Highest tem
 From MFR: Speed of the fluid in the cooling system tubes (unit: L/minute)
 
 
-##Connections
+## Connections
 1. Connect the CAN2.0 High and CAN2.0 Low wires of Motor Controller and BMS to the CANBUS wiring. Make sure these nodes are connected in parallel.
 2. Also connect the MCP2515 module in parallel to the nodes.
 <img src="./Images/canbus.jpeg" alt="canbus" width="350"/>
@@ -55,7 +55,7 @@ From MFR: Speed of the fluid in the cooling system tubes (unit: L/minute)
 8. Raspberry pi should further be connected to the monitor present in the dashboard.
 
 
-##My Role
+## My Role
 I took the exhausting task of extracting data from the Motor Controller. This included figuring out the right CAN wires from the sensor, establishing a connection between the sensor and CANBUS, writing the code to convert the raw CANBUS data into useable form and passing it on to the raspberry. For this I referenced the HV 500 CAN Manual v2.3 (https://drive.google.com/file/d/1XwL7rdQBQ7feo0aQrrRIpNbMYhYFmUrn/view), the HV 500 DBC file v2.4 (https://drive.google.com/file/d/1Ab0_CAaa5hfugyvFDeBGb3mmrNucd-Ci/view), and alot of other miscellaneous websites. I also then managed sensor fusion, i.e, merging the codes extracting data from all the sensors, and preparing a final code which delivered data according to the need of the UI code. This final code had to go through several iterations to make it as efficient as possible thereby reducing the latency. I also managed the team of Software recruits of Team Defianz Racing ensuring everyone completed their tasks up to the mark.
 
 
