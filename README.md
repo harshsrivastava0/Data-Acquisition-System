@@ -15,17 +15,17 @@ A data acquisition system (DAQ for short) created for Team Defianz Racing wherei
 ## Sensors
 We use the following sensors:
 1. Motor Controller: DTI HV 500 LC (https://drivetraininnovation.com/webshop/inverters/dti-hv-500-liquid-cooled)
-![mc](./Images/mc.jpg)
+<img src="./Images/mc.jpg" alt="mc" width="250"/>
 
 
 
 2. Battery Management System(BMS): BMS Orion 2 (https://www.orionbms.com/products/orion-bms-standard)
-![bms](./Images/bms.jpg)
+<img src="./Images/bms.jpg" alt="bms" width="250"/>
 
 
 
 3. Mass Flow rate Sensor (MFR)
-![mfr](./Images/mfr.jpg)
+<img src="./Images/mfr.jpg" alt="mfr" width="250"/>
 
 
 
