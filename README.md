@@ -2,11 +2,11 @@
 A data acquisition system (DAQ for short) created for Team Defianz Racing wherein we take data from various sensors and display them on dashboard screen as well as the pit screen.
 
 ## Table of Contents
-- [Sensors Used](#sensors)
-- [Hardware and Modules](#hardware)
-- [Data Extracted](#data)
+- [Sensors Used](#sensors used)
+- [Hardware and Modules](#hardware and modules)
+- [Data Extracted](#data extracted)
 - [Connections](#connections)
-- [My Role](#role)
+- [My Role](#my role)
 - [Credits](#credits)
 
 
